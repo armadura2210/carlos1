@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: linear-gradient(rgba(39, 74, 109, 0.7) ,
+     rgba(4, 37, 70, 0.7)),url(/Fotos/azul.jpg);
+    
+}    
+  
+
+header{
+    padding: 3px;
+    height: 200px;
+    background-image: url(/Fotos/azul.jpg);
+   
+ 
+}
+
+
+.cabecera{
+    
+    display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: rgb(233, 237, 240);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+}
+.cabecera .logo{
+    padding: 5px;
+    font-size: 40px;
+}
+.cabecera nav a{
+   text-decoration: none;
+   color: rgb(235, 240, 240);
+   padding: 10px;
+   
+
+   
+}
+.cabecera nav a:hover{
+    color: rgb(19, 6, 90);
+}
+.contenedor_area{
+    
+    padding: 35px;   
+}
+
+
+
+    
+.contenedor_area .boton{
+    
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgb(203, 203, 212);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(23, 6, 97);
+
+}
+
+
+.contenedor_area a{
+    text-decoration: none;
+   
+}.contenedor_area .boton:hover{
+    background-color: rgb(196, 22, 22);
+    color: azure;
+}
+
+/* A zone working*/
+
+.bloque1 img{
+    width: 34px;
+    
+    margin: 6px;
+    
+
+
+}
+.bloque1{
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    justify-content:center;
+    color: rgb(12, 4, 82);
+}
+
+
+.bloqueVideo1{
+    
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    background-color:  deepskyblue;
+    padding: 20px;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   margin: 25px;
+   
+}
+.video1 {
+    padding: 10px;
+    width: 50%;
+    height: 300px;
+    border: 2px solid #ccc; /* Añade un borde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    transition: transform 0.3s ease; /* Transición suave para el hover */
+}
+
+.video1:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+}
+
+
+    
+

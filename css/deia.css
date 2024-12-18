@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+.contenedor_area {
+    padding: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.boton:hover {
+    background-color: #575757;
+}
+
+.bloqueVideo1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video1 {
+    width: 50%; /* Ajusta el ancho del video */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px; /* Espacio entre el video y el texto */
+}
+
+.bloqueVideo1 p {
+    margin: 0;
+    flex: 1; /* El texto ocupa el espacio restante */
+}
